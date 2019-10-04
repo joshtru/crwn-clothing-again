@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Switch, Route, Redirect } from "react-router-dom";
+
 import "./App.css";
 
 import Header from "./components/header/header.component";
