@@ -8,7 +8,7 @@ import WithSpinner from "../with-spinner/with-spinner.component";
 import CollectionOverview from "./collection-overview.component";
 
 const mapStateToProps = createStructuredSelector({
-  isFetching: selectFetching
+  isLoading: selectFetching
 });
 
 const CollectionOverviewContainer = compose(
